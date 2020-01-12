@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Express News
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding-horizontal">
+  <h1 class="ion-text-wrap">{{data.title}}</h1>
+  <ion-img [src]="data.urlToImage"></ion-img>
+  <p>{{data.content}}</p>
+</ion-content>
